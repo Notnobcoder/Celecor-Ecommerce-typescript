@@ -13,7 +13,7 @@ const CardSlider = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 6,
+      items: 7,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -55,7 +55,7 @@ const CardSlider = () => {
           </div>
           <h6>Android Television Super New DGT -256</h6>
           <p className="price">$256.00</p>
-          <Rating readonly initialValue={5} />
+          <Rating readonly initialValue={5}  size={18} />
         </div>
         <div className="card">
           <div className="card-relative position-relative">
@@ -69,7 +69,7 @@ const CardSlider = () => {
           </div>
           <h6>Android Television Super New DGT -256</h6>
           <p className="price">$256.00</p>
-          <Rating readonly initialValue={5} />
+          <Rating readonly initialValue={5}  size={18}/>
         </div>
         <div className="card">
           <div className="card-relative position-relative">
@@ -83,7 +83,7 @@ const CardSlider = () => {
           </div>
           <h6>Android Television Super New DGT -256</h6>
           <p className="price">$256.00</p>
-          <Rating readonly initialValue={5} />
+          <Rating readonly initialValue={5}size={18} />
         </div>
         <div className="card">
           <div className="card-relative position-relative">
@@ -97,7 +97,7 @@ const CardSlider = () => {
           </div>
           <h6>Android Television Super New DGT -256</h6>
           <p className="price">$256.00</p>
-          <Rating readonly initialValue={5} />
+          <Rating readonly initialValue={5}  size={18}/>
         </div>
         <div className="card">
           <div className="card-relative position-relative">
@@ -111,7 +111,7 @@ const CardSlider = () => {
           </div>
           <h6>Android Television Super New DGT -256</h6>
           <p className="price">$256.00</p>
-          <Rating readonly initialValue={5} />
+          <Rating readonly initialValue={5} size={18} />
         </div>
         <div className="card">
           <div className="card-relative position-relative">
@@ -125,7 +125,7 @@ const CardSlider = () => {
           </div>
           <h6>Android Television Super New DGT -256</h6>
           <p className="price">$256.00</p>
-          <Rating readonly initialValue={5} />
+          <Rating readonly initialValue={5} size={18} />
         </div>
         <div className="card">
           <div className="card-relative position-relative">
@@ -139,7 +139,63 @@ const CardSlider = () => {
           </div>
           <h6>Android Television Super New DGT -256</h6>
           <p className="price">$256.00</p>
-          <Rating readonly initialValue={5} />
+          <Rating readonly initialValue={5} size={18} />
+        </div>
+        <div className="card">
+          <div className="card-relative position-relative">
+            <img src="/Images/image110-3.png" alt="images" />
+            <div className="position-absolute card-absolute">
+              <p>New</p>
+              <div className="heart">
+                <FiHeart size={27} />
+              </div>
+            </div>
+          </div>
+          <h6>Android Television Super New DGT -256</h6>
+          <p className="price">$256.00</p>
+          <Rating readonly initialValue={5} size={18} />
+        </div>
+        <div className="card">
+          <div className="card-relative position-relative">
+            <img src="/Images/image110-3.png" alt="images" />
+            <div className="position-absolute card-absolute">
+              <p>New</p>
+              <div className="heart">
+                <FiHeart size={27} />
+              </div>
+            </div>
+          </div>
+          <h6>Android Television Super New DGT -256</h6>
+          <p className="price">$256.00</p>
+          <Rating readonly initialValue={5} size={18} />
+        </div>
+        <div className="card">
+          <div className="card-relative position-relative">
+            <img src="/Images/image110-3.png" alt="images" />
+            <div className="position-absolute card-absolute">
+              <p>New</p>
+              <div className="heart">
+                <FiHeart size={27} />
+              </div>
+            </div>
+          </div>
+          <h6>Android Television Super New DGT -256</h6>
+          <p className="price">$256.00</p>
+          <Rating readonly initialValue={5} size={18} />
+        </div>
+        <div className="card">
+          <div className="card-relative position-relative">
+            <img src="/Images/image110-3.png" alt="images" />
+            <div className="position-absolute card-absolute">
+              <p>New</p>
+              <div className="heart">
+                <FiHeart size={27} />
+              </div>
+            </div>
+          </div>
+          <h6>Android Television Super New DGT -256</h6>
+          <p className="price">$256.00</p>
+          <Rating readonly initialValue={5} size={18} />
         </div>
       </Carousel>
     </div>

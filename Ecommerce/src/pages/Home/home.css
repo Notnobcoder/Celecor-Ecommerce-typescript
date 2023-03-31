@@ -1,5 +1,5 @@
 .Cellecor__padding {
-  padding: 1rem 9rem;
+  padding: 1rem 6rem;
 }
 
 .main-banner-content-value {
@@ -18,20 +18,26 @@
 }
 
 .Cellecor__home {
-  display: flex;
-  /* padding: 1rem 10rem; */
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+}
+.Cellecor__home-p1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
-.gridimage {
-  width: 920px;
-  height: 468.93px;
+.Cellocor__image img {
+  width: 970px;
+  max-width: 100%;
 }
+
 .Cellecor__home-p2-image img {
-  width: 650px;
-  height: 250px;
-  padding: 0.5rem;
+  width: 470px;
 }
+
 
 .main-banner-content-value2 {
   top: 15%;
@@ -79,18 +85,20 @@
 
 .Celecor-images {
   display: flex;
-  justify-content: space-between;
-  padding-top: 10rem;
+  justify-content: space-around;
+  padding-top: 5rem;
 }
 
 .Celecor-images div img {
-  width: 490px;
-  height: 322.75px;
+  max-width: 100%;
+  width: 500px;
+  object-fit: contain;
 }
 
 .Celecor-gagets-items-image img {
   width: 62.43px;
   height: 74.68px;
+  object-fit: contain;
 }
 
 .Celecor-gagets-image {
@@ -98,8 +106,8 @@
 }
 
 .Celecor-gagets-image img {
-  width: 310px;
-  height: 450.02px;
+  width: 290px;
+  height: 380px;
 }
 
 .Celecor-gagets-image-items {
@@ -145,10 +153,15 @@
 .Cellecor-lower-images {
   padding-top: 5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .Cellecor-lower-images div img {
+  max-width: 100%;
   width: 790px;
-  height: 353.22px;
+}
+
+.Celecor-gagets-items-i1-items {
+  padding-right: 0.5rem;
+
 }

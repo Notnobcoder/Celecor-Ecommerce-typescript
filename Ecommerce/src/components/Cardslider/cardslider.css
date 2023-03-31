@@ -22,11 +22,12 @@
 .card-relative img {
   width: 190px;
   height: 250.58px;
+  object-fit: contain;
 }
 
 .card {
   text-align: center;
-  width: 80%;
+  width: 100%;
 }
 
 .price {

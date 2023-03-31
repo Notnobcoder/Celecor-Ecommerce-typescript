@@ -10,7 +10,7 @@
 .Cellecor__footer-items {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .Cellecor__footer-items-information h4 {
@@ -99,6 +99,7 @@
 
 .Cellecor__footer-address,
 .Cellecor__footer-phone {
+  align-items: center;
   display: flex;
   align-items: center;
   margin-top: 1rem;
@@ -111,8 +112,9 @@
 
 /* celecor header below */
 .Celecor__header-below {
-  margin: 1rem 6rem;
+  margin: 1rem 6rem 0.5rem 6rem;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   align-items: center;
   background-color: #f4f4f4;
@@ -122,6 +124,11 @@
   background: #fa3434;
   display: flex;
   padding: 2rem 3rem;
+  align-items: center;
+}
+
+.Celecor__header-below-flex h5 {
+  margin-top: 0.5rem;
 }
 
 .Celecor__header-below-flex h5 {
@@ -137,10 +144,11 @@
 
 .Celecor__header-below-list {
   display: flex;
+  align-items: center;
 }
 
 .Celecor__header-below-list p {
-  padding: 0rem 3rem;
+  padding: 2rem 3rem;
   cursor: pointer;
 }
 
@@ -162,4 +170,12 @@
   line-height: 12px;
   color: #1c1c1c;
   padding-bottom: 0.5rem;
+}
+
+.Celecor__header-below-call-items h4 span {
+  font-size: 1.4rem;
+}
+
+.Celecor__header-below-call-items {
+  padding-right: 1rem;
 }

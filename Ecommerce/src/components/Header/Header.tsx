@@ -40,7 +40,7 @@ export const Header = () => {
       </div>
       <div className="Celecor__header-below">
         <div className="Celecor__header-below-flex">
-          <GiHamburgerMenu color="white" />
+          <GiHamburgerMenu color="white" size={29} />
           <h5>All Categories</h5>
         </div>
         <div className="Celecor__header-below-list">
