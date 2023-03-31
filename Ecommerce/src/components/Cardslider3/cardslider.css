@@ -1,0 +1,115 @@
+.card-absolute {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.card-absolute p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  background-color: green;
+  color: white;
+  padding: 0.25rem;
+  border-radius: 1rem;
+}
+
+.card-relative img {
+  width: 190px;
+  height: 250.58px;
+}
+
+.card {
+  text-align: center;
+  width: 80%;
+}
+
+.price {
+  color: red;
+}
+
+.card-container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-container {
+  margin-top: 3rem;
+}
+
+/* .card-container-nav-heading {
+    flex: 1;
+}
+.card-container-nav-items {
+    flex: 3;
+}
+
+
+.card-container-nav-viewall {
+    flex: 1;
+} */
+
+.card-container-nav-items ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.card-container-nav-items ul li {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.card-container-nav-heading h1 {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.card-container-nav-items ul li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  color: #000000;
+  position: relative;
+}
+
+.card-container-nav-items ul li::after {
+  margin-bottom: 1rem;
+  position: absolute;
+  height: 1px;
+  margin: 0 auto;
+  content: "";
+  left: 5px;
+  right: 0;
+  width: 90%;
+  color: #000;
+  background-color: red;
+  left: 0;
+  bottom: -3px;
+}
+
+.card-container-nav-viewall button {
+  padding: 1rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  background-color: transparent;
+  color: #bdc4cd;
+}

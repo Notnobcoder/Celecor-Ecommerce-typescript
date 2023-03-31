@@ -1,0 +1,154 @@
+.Cellecor__padding {
+  padding: 1rem 9rem;
+}
+
+.main-banner-content-value {
+  top: 25%;
+  left: 10%;
+}
+
+.main-banner-content-value h4 {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+}
+
+.main-banner-content-value p {
+  color: white;
+}
+
+.Cellecor__home {
+  display: flex;
+  /* padding: 1rem 10rem; */
+  align-items: center;
+}
+
+.gridimage {
+  width: 920px;
+  height: 468.93px;
+}
+.Cellecor__home-p2-image img {
+  width: 650px;
+  height: 250px;
+  padding: 0.5rem;
+}
+
+.main-banner-content-value2 {
+  top: 15%;
+  left: 10%;
+}
+.main-banner-content-value2 h4,
+.main-banner-content-value2 p,
+.main-banner-content-value3 h4,
+.main-banner-content-value3 p {
+  font-size: 30px;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 12px;
+
+  /* identical to box height, or 75% */
+
+  color: #000000;
+}
+
+.main-banner-content-value3 {
+  top: 15%;
+  left: 10%;
+}
+.Cellecor-returns-items {
+  padding-left: 2rem;
+}
+
+/* cellocor - returns */
+.Cellecor-returns {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f2f5;
+  padding: 2rem 3rem;
+  align-items: center;
+}
+
+.Cellecor-returns-f {
+  display: flex;
+  align-items: center;
+}
+
+.Celecor-images {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+
+.Celecor-images div img {
+  width: 490px;
+  height: 322.75px;
+}
+
+.Celecor-gagets-items-image img {
+  width: 62.43px;
+  height: 74.68px;
+}
+
+.Celecor-gagets-image {
+  position: relative;
+}
+
+.Celecor-gagets-image img {
+  width: 310px;
+  height: 450.02px;
+}
+
+.Celecor-gagets-image-items {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.Cellecor-gagets-image-items h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.0169px;
+  line-height: 27px;
+  letter-spacing: -0.210169px;
+}
+
+.Celecor-gagets-image-items button {
+  margin-top: 2rem;
+  background: #ffffff;
+  border: 1.05085px solid #ffffff;
+  box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.08);
+  border-radius: 6.30508px;
+}
+
+.Celecor-gagets {
+  padding-top: 5rem;
+  display: flex;
+}
+
+.Celecor-gagets-items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.Celecor-gagets-items-i1 {
+  display: flex;
+  align-items: center;
+  padding: 1rem 4rem;
+  border: 1px solid #8b96a5;
+}
+
+.Cellecor-lower-images {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Cellecor-lower-images div img {
+  width: 790px;
+  height: 353.22px;
+}
