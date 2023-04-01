@@ -42,7 +42,7 @@ const CardSlider = () => {
         </div>
       </div>
       <hr />
-      <Carousel responsive={responsive}>
+      <Carousel responsive={responsive} infinite autoPlay autoPlaySpeed={2000}>
         <div className="card">
           <div className="card-relative position-relative">
             <img src="/Images/image110.png" alt="images" />
@@ -55,7 +55,7 @@ const CardSlider = () => {
           </div>
           <h6>Android Television Super New DGT -256</h6>
           <p className="price">$256.00</p>
-          <Rating readonly initialValue={5}  size={18} />
+          <Rating readonly initialValue={5} size={18} />
         </div>
         <div className="card">
           <div className="card-relative position-relative">
@@ -69,7 +69,7 @@ const CardSlider = () => {
           </div>
           <h6>Android Television Super New DGT -256</h6>
           <p className="price">$256.00</p>
-          <Rating readonly initialValue={5}  size={18}/>
+          <Rating readonly initialValue={5} size={18} />
         </div>
         <div className="card">
           <div className="card-relative position-relative">
@@ -83,7 +83,7 @@ const CardSlider = () => {
           </div>
           <h6>Android Television Super New DGT -256</h6>
           <p className="price">$256.00</p>
-          <Rating readonly initialValue={5}size={18} />
+          <Rating readonly initialValue={5} size={18} />
         </div>
         <div className="card">
           <div className="card-relative position-relative">
@@ -97,7 +97,7 @@ const CardSlider = () => {
           </div>
           <h6>Android Television Super New DGT -256</h6>
           <p className="price">$256.00</p>
-          <Rating readonly initialValue={5}  size={18}/>
+          <Rating readonly initialValue={5} size={18} />
         </div>
         <div className="card">
           <div className="card-relative position-relative">

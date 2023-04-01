@@ -42,7 +42,7 @@ const CardSlider2 = () => {
         </div>
       </div>
       <hr />
-      <Carousel responsive={responsive}>
+      <Carousel responsive={responsive} infinite autoPlay autoPlaySpeed={2000}>
         <div className="card">
           <div className="card-relative position-relative">
             <img src="/Images/image110.png" alt="" />
