@@ -1,5 +1,3 @@
-npm install 
-npm run dev
+Celocor Ecommerce Typescript
 
-
-open port 5173 port
+improve this bootstap css with tailwind css
